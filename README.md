@@ -25,16 +25,16 @@ discriminator model such as RNNs or Transformers.
 
 ### Code explanation
 
-(1) data_loading.py
+(1) data_loading.py 
 - Transform raw time-series data to preprocessed time-series data (Googld data)
 - Generate Sine data
 
 (2) Metrics directory
-  (a) visualization_metrics.py
+  (a) visualization_metrics.py <br />
   - PCA and t-SNE analysis between Original data and Synthetic data
-  (b) discriminative_metrics.py
+  (b) discriminative_metrics.py <br />
   - Use Post-hoc RNN to classify Original data and Synthetic data
-  (c) predictive_metrics.py
+  (c) predictive_metrics.py <br />
   - Use Post-hoc RNN to predict one-step ahead (last feature)
 
 (3) timegan.py
