@@ -31,11 +31,11 @@ discriminator model such as RNNs or Transformers.
 
 (2) Metrics directory <br />
 - (a) visualization_metrics.py 
-  __ PCA and t-SNE analysis between Original data and Synthetic data <br />
+  _ _ PCA and t-SNE analysis between Original data and Synthetic data <br />
 (b) discriminative_metrics.py 
-  __ Use Post-hoc RNN to classify Original data and Synthetic data <br />
+  _ _ Use Post-hoc RNN to classify Original data and Synthetic data <br />
 (c) predictive_metrics.py
-  __ Use Post-hoc RNN to predict one-step ahead (last feature)
+  _ _ Use Post-hoc RNN to predict one-step ahead (last feature)
 
 (3) timegan.py
 - Use original time-series data as training set to generater synthetic time-series data
