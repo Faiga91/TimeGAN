@@ -30,8 +30,8 @@ discriminator model such as RNNs or Transformers.
 - Generate Sine data
 
 (2) Metrics directory <br />
-(a) visualization_metrics.py 
-  - PCA and t-SNE analysis between Original data and Synthetic data <br />
+- (a) visualization_metrics.py 
+  -- PCA and t-SNE analysis between Original data and Synthetic data <br />
 (b) discriminative_metrics.py 
   - Use Post-hoc RNN to classify Original data and Synthetic data <br />
 (c) predictive_metrics.py
