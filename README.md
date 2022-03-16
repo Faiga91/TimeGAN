@@ -1,3 +1,13 @@
+# Re-work the TimeGAN code towards an a generative model for IoT sensor data 
+By: Faiga Alawad 
+
+++ Re-organize the files into new folders.
+++ Upgrade the whole code to TensorFlow 2.0. 
+++ Add more Tutorial/examples notebooks [In-progress]
+
+
+
+
 # Codebase for "Time-series Generative Adversarial Networks (TimeGAN)"
 
 Authors: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar

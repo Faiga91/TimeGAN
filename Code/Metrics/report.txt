@@ -1,0 +1,35 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 1 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: predictive_metrics.py
+--------------------------------------------------------------------------------
+predictive_metrics.py:73:20: ERROR: Using member tf.contrib.layers.fully_connected in deprecated module tf.contrib. tf.contrib.layers.fully_connected cannot be converted automatically. tf.contrib will not be distributed with TensorFlow 2.0, please consider an alternative in non-contrib TensorFlow, a community-maintained repository such as tensorflow/addons, or fork the required code.
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'predictive_metrics.py'
+ outputting to 'predictive_metrics_v2.py'
+--------------------------------------------------------------------------------
+
+37:2: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+54:6: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+55:6: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+56:6: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+70:9: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+70:48: INFO: Renamed 'tf.AUTO_REUSE' to 'tf.compat.v1.AUTO_REUSE'
+71:15: INFO: Renamed 'tf.nn.rnn_cell.GRUCell' to 'tf.compat.v1.nn.rnn_cell.GRUCell'
+72:33: INFO: Renamed 'tf.nn.dynamic_rnn' to 'tf.compat.v1.nn.dynamic_rnn'
+73:20: ERROR: Using member tf.contrib.layers.fully_connected in deprecated module tf.contrib. tf.contrib.layers.fully_connected cannot be converted automatically. tf.contrib will not be distributed with TensorFlow 2.0, please consider an alternative in non-contrib TensorFlow, a community-maintained repository such as tensorflow/addons, or fork the required code.
+75:27: INFO: Renamed 'tf.all_variables' to 'tf.compat.v1.all_variables'
+81:11: INFO: tf.losses.absolute_difference requires manual check. tf.losses have been replaced with object oriented versions in TF 2.0 and after. The loss function calls have been converted to compat.v1 for backward compatibility. Please update these calls to the TF 2.0 versions.
+81:11: INFO: Renamed 'tf.losses.absolute_difference' to 'tf.compat.v1.losses.absolute_difference'
+83:13: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+87:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+88:11: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
