@@ -20,9 +20,9 @@ Note: Use original data as training set to generater synthetic data (time-series
 import tensorflow as tf
 import tf_slim as slim
 import numpy as np
-#from utils import extract_time, rnn_cell, random_generator, batch_generator
-from utils_v2 import extract_time, rnn_cell, random_generator, batch_generator
+from utils import extract_time, rnn_cell, random_generator, batch_generator
 
+tf.compat.v1.disable_eager_execution()
 
 def timegan (ori_data, parameters):
   """TimeGAN function.

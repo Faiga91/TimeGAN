@@ -22,6 +22,7 @@ import numpy as np
 from utils import extract_time, rnn_cell, random_generator, batch_generator
 
 
+
 def timegan (ori_data, parameters):
   """TimeGAN function.
   
