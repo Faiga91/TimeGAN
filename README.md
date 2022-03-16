@@ -2,8 +2,11 @@
 By: Faiga Alawad 
 
 ++ Re-organize the files into new folders.
+
 ++ Upgrade the whole code to TensorFlow 2.0. 
+
 ++ Add more Tutorial/examples notebooks [In-progress]
+
 
 
 
