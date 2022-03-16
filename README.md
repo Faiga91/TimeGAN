@@ -1,4 +1,4 @@
-# Re-work the TimeGAN code towards an a generative model for IoT sensor data 
+# Re-work the TimeGAN code towards a generative model for IoT sensor data 
 By: Faiga Alawad 
 
 ++ Re-organize the files into new folders.
